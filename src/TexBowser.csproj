@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);CS0618</NoWarn>
+    <AssemblyName>TexBowser</AssemblyName>
+    <Version>1.1.0</Version>
+    <RootNamespace>TexBowser</RootNamespace>
+    <Description>TexBowser - text web browser (C# + Terminal.Gui v2). Detects page layout (regions, grids, sidebars, tables) and reconstructs it as text grids.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.13.0" />
+    <PackageReference Include="Terminal.Gui" Version="2.5.0" />
+  </ItemGroup>
+
+</Project>
